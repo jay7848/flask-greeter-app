@@ -26,4 +26,4 @@ pytest
 ## CI/CD Pipelines
 This app is ready for Jenkins and GitHub Actions pipelines.
 
-## test first auto 
+## test first auto
