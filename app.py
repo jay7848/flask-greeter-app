@@ -1,6 +1,10 @@
 from flask import Flask, request, render_template
 
+<<<<<<< HEAD
 app = Flask(__name__)  # ✅ Must be before @app.route
+=======
+app = Flask(__name__)
+>>>>>>> 8418d093c3f3e11ca8343303485cd2c87ca42fd4
 
 @app.route('/')
 def home():
@@ -9,6 +13,7 @@ def home():
 @app.route('/greet', methods=['POST'])
 def greet():
     name = request.form.get('name', 'Guest')
+<<<<<<< HEAD
     return f"""
     <html>
     <head>
@@ -26,6 +31,9 @@ def greet():
     </body>
     </html>
     """
+=======
+    return f'Hello, {name}! Welcome to the Flask App.'
+>>>>>>> 8418d093c3f3e11ca8343303485cd2c87ca42fd4
 
 if __name__ == '__main__':
     app.run(debug=True)
