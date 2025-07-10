@@ -3,7 +3,7 @@
 This is a simple Flask web application with:
 - Home page with a form
 - Greeting feature based on user input
-- 
+
 ## How to Run
 1. Install dependencies:
 ```bash
